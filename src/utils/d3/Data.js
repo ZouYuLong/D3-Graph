@@ -37,12 +37,12 @@
 		nodes:[
 			{id:'A',name:'A',type:'node',imgUrl:img},
 			{id:'B',name:'B',type:'node',imgUrl:img},
-			{id:'D',name:'24',type:'vnode'},
+			{id:'D',name:'3',type:'vnode'},
 		],
 		links:[
-			{sign:'AB',source:'B',target:'A',name:'AC',isCurve:true},
-			{sign:'AB',source:'B',target:'A',name:'AC',isCurve:true},
-			{sign:'AB',source:'B',target:'A',name:'AC'},
+			{sign:'AB',source:'B',target:'A',name:'次要关系',isCurve:true},
+			{sign:'AB',source:'B',target:'A',name:'次要关系',isCurve:true},
+			{sign:'AB',source:'B',target:'A',name:'主动关系'},
 			{sign:'AD',source:'A',target:'D',name:'',bidirection:true,distance:200},
 		]
 	}

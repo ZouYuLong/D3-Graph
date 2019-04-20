@@ -103,7 +103,9 @@
 						return 'font-size:16px'; 
 					})
 			        .text(data.name).attr('text-anchor','middle') 
-					.attr('fill',UIConfig.vNodeTxtColor).attr('y',size/4 - 5)
+					.attr('fill',UIConfig.vNodeTxtColor)
+					.attr('y',size/4 - 5)
+					.attr('x',100)
 			}
 			
 			return {

@@ -1,5 +1,5 @@
 <template>
-	<div class="common full"></div>
+	<div class="common graphCommonContent full" ></div>
 </template>
 
 <script>
@@ -82,7 +82,7 @@
 </script>
 
 <style lang='scss'>
-	/*.graphCommonContent{*/
+	.graphCommonContent{
 		.leaf circle {
 		  fill: #ff7f0e;
 		  fill-opacity: 1;
@@ -113,6 +113,6 @@
 		.alpha0{
 			opacity: 0;
 		}
-	/*}*/
+	}
 	
 </style>
